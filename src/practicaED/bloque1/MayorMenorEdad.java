@@ -5,6 +5,8 @@ package practicaED.bloque1;
  * Implementa el segundo metodo de MayorMenorEdad.
  *
  */
+
+/*Creo la clase persona, porque el metodo debe recibir esa clase*/
 class Persona {
 	String nombre;
 	int edad;
@@ -39,6 +41,11 @@ class Persona {
 }
 
 public class MayorMenorEdad {
+	/**
+	 * @param Persona persona1 
+	 * Implementa el segundo metodo de MayorMenorEdad.
+	 *
+	 */
 	public static String MayorMenorEdad(Persona persona1) {
 		if (persona1.edad < 18) {
 			return "El usuario es menor de edad";
